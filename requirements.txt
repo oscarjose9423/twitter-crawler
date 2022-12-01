@@ -1,0 +1,9 @@
+pandas
+numpy
+datetime
+re
+pickle
+tweepy
+vaderSentiment
+sklearn == 1.0.2
+ipython

@@ -1,0 +1,4 @@
+.spyproject
+/project
+/__pycache__
+.env
