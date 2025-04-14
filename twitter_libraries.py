@@ -575,6 +575,7 @@ def get_sentiment(df):
 def get_state(x):
     result = x.split(" - ")[0]
     try:
+
         state = result.split(", ")[1]
         if state == "USA":
             result = result.split(", ")[0]
@@ -584,5 +585,8 @@ def get_state(x):
                 return result
         else:
             return state
+
     except:
         return "no_state"
+
+
